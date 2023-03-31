@@ -1,8 +1,5 @@
-Usage
-======
-
-Installation
--------------
+Painting and Scattering Assets
+==============================
 
 You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
 

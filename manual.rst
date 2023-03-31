@@ -1,8 +1,12 @@
-Usage
+Manual
 ======
 
-Installation
--------------
+.. toctree::
+   :maxdepth: 2
 
-You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
-
+   adding_assets
+   placing_assets
+   placement_modes
+   snapping
+   painting_scattering
+   

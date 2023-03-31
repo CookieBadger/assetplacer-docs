@@ -1,8 +1,8 @@
-Usage
-======
+Quickstart
+===========
 
-Installation
--------------
+.. toctree::
+   :maxdepth: 2
 
-You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
-
+   installation
+   usage

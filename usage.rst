@@ -1,8 +1,12 @@
 Usage
 ======
 
-Installation
--------------
+Adding and Placing Assets
+--------------------------
 
-You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
+Lorem ipsum dolor sit amet
 
+
+Shortcuts
+-----------
+A - Rotate around X axis

@@ -1,8 +1,8 @@
-Usage
-======
+Placement Modes
+================
 
-Installation
--------------
+Plane Placement Mode
+-----------------------
 
-You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
-
+Surface Placement Mode
+-----------------------

@@ -23,12 +23,5 @@ Indices and tables
    :caption: Contents:
    
    quick_start
-      installation
-      usage
    manual
-      adding_assets
-      placing_assets
-      placement_modes
-      snapping
-      painting_scattering
    faq
