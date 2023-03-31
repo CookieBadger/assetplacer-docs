@@ -17,6 +17,7 @@ Frequently Asked Questions (FAQ)
 
 * I found an issue with the plugin. Where should I report it?
 
+* You should implement this and that! Also, I had an idea for another tool!
 
 You can purchase the AssetPlacer plugin here (link). To install the AssetPlacer, do this...
 
