@@ -98,3 +98,4 @@ Here is a list of all the shortcuts in the plugin. The most frequent actions are
    * - Flip on Z axis
      - :kbd:`3`
 
+These are the default keybindings recommended by us, but you can change any of them in the Project Settings under ``AssetPlacer -> Shortcuts``.
