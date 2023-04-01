@@ -11,12 +11,6 @@ The **AssetPlacer** is a plugin for the Godot game engine, that should help with
 
 .. image:: images/AssetPreviews.png
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
 .. toctree::
    :maxdepth: 4

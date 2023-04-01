@@ -29,6 +29,8 @@ To place an asset, click on it in the asset palette and move the mouse over the 
 
 .. image:: images/PlacingAsset.gif
 
+As placing assets does not flag the scene as changed, **make sure to always save your scene** after you placed assets, even though the editor does not remind you to!
+
 You can toggle snapping by holding down the :kbd:`Ctrl` key, while placing the asset. If you want to immediately select the asset when placing the asset, hold the :kbd:`Alt` key while clicking. This helps to quickly perform some unique transformations to the instance. 
 If you want to transform the preview and all subsequently placed instances of the asset, by rotating or scaling, press :kbd:`E` or :kbd:`R` respectively. If you are done, press the :kbd:`Space` key. If you have no asset selected, you can press :kbd:`Space` to select the most recent asset.
 
