@@ -35,4 +35,4 @@ You can also flip your asset by inverting scale components along the X, Y and Z 
 Of course, the plugin would be very limited, if you could only place on the XZ plane. You can change the plane you are placing on, or place on physics surfaces instead. Refer to :doc:`placement_modes` for more information.
 
 Finally, you can also use :doc:`snapping </snapping>` to place your assets at an exact position, regular distances, and in grid patterns. 
-By clicking and dragging while snapping is enabled, you can paint assets in a line, and  when snapping is disabled you can rotate the asset normal to the up vector of the plane you are placing on. Refer to :doc:`painting_scattering` for details.
+By clicking and dragging while snapping is enabled, you can paint assets in a line, and  when snapping is disabled you can rotate the asset normal to the up vector of the plane you are placing on. Refer to :doc:`painting_orienting` for details.

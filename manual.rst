@@ -9,5 +9,5 @@ Manual
    placing_assets
    placement_modes
    snapping
-   painting_scattering
+   painting_orienting
    
