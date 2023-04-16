@@ -43,7 +43,7 @@ I added the plugin, but I cannot enable it!
 
 Make sure to press the "Build" button at the top right before you enable the plugin. If the button does not show up, create a new C# script in your project and delete it again. It should show up now. 
 Once you built the plugin without errors (check the build output), you should be able to enable it in the project settings.
-In case this does not fix a problem, feel free to write a comment on the `itch`_ page of the plugin, describing your issue and I will do my best to help! 
+In case this does not fix a problem, make sure you followed the instructions in the :doc:`Installation page <installation/>`, and then  `create an issue on GitHub <https://github.com/CookieBadger/assetplacer-docs/issues/new>`_ or write a comment on `itch`_ describing your problem and I will do my best to help! 
 
 
 What can I use the source code for?
@@ -62,13 +62,13 @@ There is no restriction to the usage, use it in any amount of projects for as lo
 I found an issue with the plugin. Where should I report it?
 ---------------------------------------------------------------
 
-Feel free to describe any issue you are having, or any other thoughts you have about the product as a commment on the `itch`_  page. 
+To report any errors or problems you might encounter using the plugin, please `create an issue on GitHub <https://github.com/CookieBadger/assetplacer-docs/issues/new>`_ describing the problem. In case you do not have a GitHub account, you can also write a comment on the `itch`_  page. 
 
 
 You should implement this and that! Also, I had an idea for another tool!
 --------------------------------------------------------------------------
 
-As described in the other answers, you can always write a comment on the `itch`_ page of the plugin. 
+As described in the other answers, you can always `create an issue on GitHub <https://github.com/CookieBadger/assetplacer-docs/issues/new>`_ or comment on the `itch`_ page of the plugin. 
 Please take into account, however, that the focus of the development might lie in improving stability, and thus bugs will be prioritized over features. 
 Also, not every feature is feasible to implement, since this is a one man project, and requests might also be declined for features that might only serve a specific use case or a very limited amount of users.
 
