@@ -18,7 +18,7 @@ To be able to use the grid with any layout of your level, there is an additional
 This is especially useful, when you want to build e.g. a wall at an irregular position, but want all individual pieces of the wall to be snapped together.
 To be able to quickly use this feauture without typing values, you can select an object in the scene, that you would like to be on the grid, and press the button to displace the grid accordingly.
 
-.. image:: images/GridOffset.png
+.. image:: images/GridOffset.gif
 
 The plugin will avoid placing the same asset twice at the same position if snapping is enabled. However, this feature only works for the last couple of hundred assets placed, so be careful when working on large scenes! 
 

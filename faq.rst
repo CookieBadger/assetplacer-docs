@@ -41,7 +41,8 @@ Unfortunately, this requires restarting the editor at the moment, but if a more 
 I added the plugin, but I cannot enable it!
 ----------------------------------------------------------------------
 
-Make sure to press the "Build" button at the top right before you enable the plugin. If the button does not show up, change a line in any of the C# scripts. 
+Make sure to press the "Build" button at the top right before you enable the plugin. If the button does not show up, create a new C# script in your project and delete it again. It should show up now. 
+Once you built the plugin without errors (check the build output), you should be able to enable it in the project settings.
 In case this does not fix a problem, feel free to write a comment on the `itch`_ page of the plugin, describing your issue and I will do my best to help! 
 
 

@@ -12,6 +12,6 @@ The same also applies to individual placement with snapping enabled. Note howeve
 When snapping is disabled, you can click and drag the mouse to the left or right, to rotate it along the normal of the plane or surface you are placing on. 
 This helps to achieve some quick variety of orientation when scattering assets, or an organic look when placing objects that do not rely on precise orientation. Or you can just use it, to make things quickly face the correct way.
 
-.. image:: images/RotatingAsssets.gif
+.. image:: images/RotatingAssets.gif
 
 Notice that there is a small deadzone, where no rotation will be applied, to prevent accidental rotation of assets. 

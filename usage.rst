@@ -37,20 +37,20 @@ If you want to transform the preview and all subsequently placed instances of th
 In order to not rely on manually typing the position values all the time, you can press the key :kbd:`G` and then move the mouse to displace the placement plane. Snapping settings apply to the plane displacement. 
 Left click, once you are satisfied with the position. Of course, this feature only exists in the plane placement mode.
 
-.. image:: images/MovingPlane.gif
+.. image:: images/PlaneDisplacement.gif
 
 You can also place assets on physics surfaces. Make sure, that collisions are enabled on the surface objects you want to place assets on (e.g. the terrain). 
 You can also press a checkbox in the placement configuration, to align your asset with the normal vector of the surface you are placing on.
 
-.. image:: images/PlacingAssetSurface.gif
+.. image:: images/SurfacePlacement.gif
 
 If snapping is enabled, you can paint a row of assets by clicking and dragging. If you draw over your line of assets, assets will not be stacked at the overlaps.
 
-.. image:: images/PaintingAsset.gif
+.. image:: images/PaintingAssets.gif
 
 If snapping is disabled, you can click and drag to rotate your asset along the normal vector of the surface you are placing on.
 
-.. image:: images/PlacingAndRotatingAsset.gif
+.. image:: images/RotatingAssets.gif
 
 With these instructions, you should be ready to use the AssetPlacer for the creation of your levels. However, it is recommended to take some time to look at the table of shortcuts below, to get the most out of the plugin.
 
