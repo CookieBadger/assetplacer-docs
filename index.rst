@@ -48,4 +48,4 @@ Click on any topics on the sidebar to find more information. If you want to quic
    .. If you want to see the asset placer in action, check out the following video: [Timelapse video]
    .. There are also tutorials on how to use it: [Tutorial]
 
-.. _here: https://boolbadger.itch.io/assetplacer
+.. _here: https://cookiebadger.itch.io/assetplacer

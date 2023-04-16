@@ -73,4 +73,4 @@ Please take into account, however, that the focus of the development might lie i
 Also, not every feature is feasible to implement, since this is a one man project, and requests might also be declined for features that might only serve a specific use case or a very limited amount of users.
 
 
-.. _itch: https://boolbadger.itch.io/assetplacer
+.. _itch: https://cookiebadger.itch.io/assetplacer

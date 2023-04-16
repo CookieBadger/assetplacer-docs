@@ -27,4 +27,4 @@ Congratulations, you are ready to use the AssetPlacer!
 
 
 
-.. _here: https://boolbadger.itch.io/assetplacer
+.. _here: https://cookiebadger.itch.io/assetplacer
