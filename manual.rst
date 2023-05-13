@@ -10,4 +10,5 @@ Manual
    placement_modes
    snapping
    painting_orienting
+   settings
    

@@ -13,7 +13,7 @@ The AssetPlacer is developed in C#. Hence, to use it, you need to use a Mono ver
 
 .. image:: images/AssetPlacerFolder.png
 
-3. In the top right corner of the editor, next to the play buttons, click the "Build" button.
+3. In the top right corner of the editor, next to the play buttons, click the "Build" button. In case the button is not there, create a new C# script in your project and delete it again, and make sure you are using the Mono version of Godot.
 
 4. Go to ``Project -> Project Settings -> Plugins`` and enable the AssetPlacer.
 
