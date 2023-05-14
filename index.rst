@@ -44,6 +44,7 @@ Get it `here`_!
 
 
 Not only can you save massive amounts of time using the AssetPlacer, it also helps you achieve the same things with fewer actions, thus you can get more done with less strain. 
+Do you want to see the plugin in action? Watch `this video <https://youtu.be/vkeYPDnk4DQ>`_, showing the creation of the scene above.
 
 Click on any topics on the sidebar to find more information. If you want to quickly get started, read through the :doc:`Installation <installation/>` and :doc:`Usage <usage/>` pages. 
 

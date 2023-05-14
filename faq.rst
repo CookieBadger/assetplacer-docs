@@ -82,4 +82,8 @@ Please take into account, however, that the focus of the development might lie i
 Also, not every feature is feasible to implement, since this is a one man project, and requests might also be declined for features that might only serve a specific use case or a very limited amount of users.
 
 
+I made this level with the AssetPlacer!
+----------------------------------------
+Amazing! If you want to share what you have made, feel free to tag any of my social media accounts (e.g. `@_cookieBadger <https://twitter.com/_cookieBadger>`_ on Twitter) or post it as a comment on the `itch`_ page, since I'd be super interested in seeing what you made with it! 
+
 .. _itch: https://cookiebadger.itch.io/assetplacer
