@@ -5,7 +5,7 @@ The AssetPlacer is a paid plugin, therefore it is not available at Godot's built
 Not all versions of Godot are supported by the plugin, so make sure you check that the plugin is compatible with the version you intend to use before you make your purchase. 
 To install the plugin, follow the instructions below.
 
-The AssetPlacer is developed in C#. Hence, to use it, you need to use a Mono version of the Godot engine, and have Mono or .Net installed.
+The AssetPlacer is developed in C#. Hence, to use it, you need to use a Mono version of the Godot engine, and have `.NET <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_ installed.
 
 1. Once purchased, retrieve and extract the downloadables. Make sure to choose the package that corresponds to your Godot version. 
 

@@ -7,9 +7,10 @@ The number of assets per library is unlimited. Yet, it is recommended to separat
 
 .. image:: images/DroppingAsset.png
 
-If no library is open yet, a new one is created when you add the first asset. You can also create a new library by clicking the ``+`` button on the library tab bar. 
-You can save the library by clicking on the ``Save Library`` button. Libraries are stored in the ``user:://`` directory. 
-This has the advantage of not cluttering your project folder, but in return sharing your project folder does not include your libraries. Take this into account when making backups or using version control. 
+If no library is open yet, a new one is created when you add the first asset. You can also create a new library by clicking the ``+`` button on the right side of the library tab bar. 
+You can save the library by clicking on the ``Save Library`` button. Libraries are per default stored in the ``user:://`` directory. 
+This has the advantage of not cluttering your project folder, but in return sharing your project folder does not include your libraries, so take this into account when making backups or using version control. 
+Alternatively, you can configure where libraries are saved in the :doc:`Project Settings <settings/>`.
 A saved library can be opened by clicking ``Load Library``. This opens the library in a new tab. If you want to close a library tab, simply click on it with the middle mouse button.
 You can also right click a library tab to open the context menu, to either locate it in your file explorer, or to save a copy of it.
 
@@ -21,3 +22,19 @@ If you want to remove an asset from a library, locate it in the FileSystem, or o
 
 Libraries keep only references to the assets you added. If you move assets around or delete them, their references might become invalid, and you need to add the asset again.
 In case of unexpected behavior refer to the "Output" tab for information.
+
+Previews 
+----------
+
+The plugin automatically generates previews for your assets. It attempts to frame your asset as good as possible. However, you might want to change from which side your assets are being previewed. 
+You can either choose to view them from the top, the front, the left, the right, the bottom, or the back. The default perspective can be configured in the :doc:`Project Settings <settings/>`. 
+However, as you might want to choose differently for different assets, you can also choose the perspective per library in the right-click context menu of the tab bar, or by right clicking on an asset.
+
+.. image:: images/PreviewPerspectiveAsset.png
+
+The priority of the settings is such, that the setting on the asset overrides the library, and the library overrides what is configured in the project settings. 
+
+.. image:: images/PreviewPerspectiveLibrary.png
+
+There is also an option to reset the configuration on all assets of a library.
+In case your asset changed in some way, you can click "Reload Preview" in the right-click context menu of on an asset, or "Reload all Previews" in the context menu of a library. 

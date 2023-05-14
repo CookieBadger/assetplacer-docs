@@ -4,7 +4,8 @@ Painting and Orienting Assets
 Depending on whether snapping is enabled or not, clicking and dragging offers different capabilities.
 
 When snapping is enabled, you can paint assets, by clicking and dragging over all the grid positions you want to fill with assets. This will not place "duplicate" assets, when you cross the same position multiple times.
-The same also applies to individual placement with snapping enabled. Note however, that different assets, will be placed at the same position.
+It also won't place "duplicate" assets, if you already placed the same asset under the same node at that position earlier, but this is only checked up to a certain limit of nodes.
+The same also applies to individual placement with snapping enabled. Note however, that different assets, or the same asset with a different rotation or scale, will be placed at the same position.
 
 .. image:: images/PaintingAssets.gif
 

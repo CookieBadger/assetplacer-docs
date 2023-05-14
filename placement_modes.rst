@@ -6,7 +6,7 @@ At the moment, the AssetPlacer offers two different placement modes: Plane and S
 Plane Placement Mode
 -----------------------
 
-This is the default mode. The plane placement mode places assets - as the name suggests - on a plane, that can be configured by the user. This is mode is useful when the are you are working on is flat, blocky or when the differences in height are discrete.
+This is the default mode. The plane placement mode places assets - as the name suggests - on a plane, that can be configured by the user. This is mode is useful when the level you are working on is flat, blocky or when the differences in height are discrete.
 When selecting an asset, and hovering over the viewport, the asset is positioned on the intersection of the plane and the line from the mouse position into the 3D world. 
 
 .. image:: images/PlanePlacementModeInterface.png
@@ -36,13 +36,13 @@ The second mode offered by the plugin, allows to place assets on physics surface
 
 .. image:: images/SurfacePlacementModeInterface.png
 
-When selecting and asset, and hovering over the viewport, with this placement mode enabled, the asset is positioned on the intersection of the line from the mouse position into the 3D world and the first physics surface it intersects (raycast).
+When selecting an asset, and hovering over the viewport, with this placement mode enabled, the asset is positioned on the intersection of the line from the mouse position into the 3D world and the first physics surface it intersects (raycast).
 This only works on collision surfaces, so make sure that objects you want to place on, have a collision shape or collisions enabled (e.g. for CSG shapes).
 You can also set a special collision mask for placement in the project settings under ``AssetPlacer -> Settings``.
 
 .. image:: images/SurfacePlacement.gif
 
 The surface placement mode also allows you to align assets with the normal of the surface they are being placed on. To enable this, make sure to check the box "Align to Surface Normal" and select the right direction of your object you want to align.
-By default, this is the positive Y axis, which would work for e.g. placing trees, but when you want to stick a sign to a wall, you might, for example, use the X axis instead.
+By default, this is the positive Y-axis, which would work for e.g. placing trees, but when you want to stick a sign to a wall, you might, for example, use the X-axis instead.
 
 .. image:: images/SurfacePlacementAligned.gif

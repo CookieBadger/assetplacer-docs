@@ -1,10 +1,10 @@
 Snapping
 =========
 
-To make the use of modular assets and placing objects at regular distances easy, the AssetPlacer offers Snapping capabilities. Compared to the Godot editor's built-in incremental snapping applied to transformations, the AssetPlacer offers GridSnapping, i.e. assets are snapped to absolute positions on a global grid. 
+To make the use of modular assets and placing objects at regular distances easy, the AssetPlacer offers Snapping capabilities. Compared to the Godot editor's built-in incremental snapping applied to transformations, the AssetPlacer offers grid snapping, i.e. assets are snapped to absolute positions on a global grid. 
 Note that the AssetPlacer's snapping is separate from Godot's internal snapping, thus you need to make sure to configure both of them to fit your needs. 
 There is a checkbox in the AssetPlacer's user interface, that enables snapping. For convenience and consistency, you can also toggle snapping when placing assets by holding down the :kbd:`Ctrl` key.
-When snapping is active, a grid is displayed on the plane that assets are currently being placed on.
+When snapping is active, a grid is displayed on the plane that assets are currently being placed on. *If you are using the OpenGL 3 renderer, this grid is unfortunately not visible.*
 
 .. image:: images/Snapping.gif
 
@@ -20,5 +20,7 @@ To be able to quickly use this feauture without typing values, you can select an
 
 .. image:: images/GridOffset.gif
 
-The plugin will avoid placing the same asset twice at the same position if snapping is enabled. However, this feature only works for the last couple of hundred assets placed, so be careful when working on large scenes! 
+.. note::
+    If snapping is enabled, the plugin will avoid overlapping assets, i.e. placing the same asset twice at the same position. It checks all the children of the node you are currently placing under.
+    However, to not compromise performance, this feature only checks the last one thousand assets placed, so be careful when working on large scenes. Group your objects under different nodes! 
 

@@ -24,7 +24,7 @@ If you want to reset the transformation of your asset entirely, press :kbd:`Shif
 .. image:: images/TransformingAsset.gif
 
 You can also apply some quick transformations by using shortcuts. With :kbd:`A`, :kbd:`S`, and :kbd:`D` you can rotate your asset by 90 degrees on the X, Y, and Z axes. 
-Using the :kbd:`Shift` modifier, the rotation step is halfed to 45 degrees. You can also change the amount of rotation when holding :kbd:`Shift` in the ProjectSettings under ``AssetPlacer -> Settings``. 
+Using the :kbd:`Shift` modifier, the rotation step is halved to 45 degrees. You can change the amount of rotation when holding :kbd:`Shift` in the :doc:`Project Settings <settings/>` under ``AssetPlacer -> Settings``. 
 You can also flip your asset by inverting scale components along the X, Y and Z axes by using the keys :kbd:`1`, :kbd:`2`, and :kbd:`3`.
 
 ..

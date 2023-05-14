@@ -22,14 +22,15 @@ You can add any 3D scene or any 3D model, that is imported as a 3D scene to the 
 The asset then gets added to the palette and a preview should be shown. 
 In case of any error, check if there is anything in the Output panel of the Godot engine. 
 You can add as many assets as you want to the palette. Optionally, you can also click "Save Library", to store your selection of assets and be able to load it up after you restart the editor.
-Right click on an asset in the asset panel to open the context menu, e.g. to remove it from the library. Remember to save the library again after you make any changes.
+Right click on an asset in the asset panel to open the context menu, e.g. to remove it from the library. Remember to save the library again after you make any changes. The save location can be changed in the :doc:`Project Settings <settings/>`.
 
 To the left of the asset palette, you can then configure how you want to place assets. For example, you can select to place them under the root node and on the XZ plane at a height of 0, which is the default setting.
 To place an asset, click on it in the asset palette and move the mouse over the 3D viewport. A preview of the asset should follow your mouse cursor in the 3D scene. To place it, simply click once. To deslect the asset, press :kbd:`Esc`.
 
 .. image:: images/PlacingAsset.gif
 
-As placing assets does not flag the scene as changed, **make sure to always save your scene** after you placed assets, even though the editor does not remind you to!
+.. warning::
+  As placing assets does not flag the scene as changed, **make sure to always save your scene** after you placed assets, even though the editor does not remind you to!
 
 You can toggle snapping by holding down the :kbd:`Ctrl` key, while placing the asset. If you want to immediately select the asset when placing the asset, hold the :kbd:`Alt` key while clicking. This helps to quickly perform some unique transformations to the instance. 
 If you want to transform the preview and all subsequently placed instances of the asset, by rotating or scaling, press :kbd:`E` or :kbd:`R` respectively. If you are done, press the :kbd:`Space` key. If you have no asset selected, you can press :kbd:`Space` to select the most recent asset.
@@ -39,7 +40,7 @@ Left click, once you are satisfied with the position. Of course, this feature on
 
 .. image:: images/PlaneDisplacement.gif
 
-You can also place assets on physics surfaces. Make sure, that collisions are enabled on the surface objects you want to place assets on (e.g. the terrain). 
+You can also place assets on physics surfaces. Make sure, that collisions are enabled on the surface objects you want to place assets on (e.g. the terrain). If you want, you can configure the collision mask that assets are placed on in the :doc:`Project Settings <settings/>`.
 You can also press a checkbox in the placement configuration, to align your asset with the normal vector of the surface you are placing on.
 
 .. image:: images/SurfacePlacement.gif
@@ -73,7 +74,7 @@ Here is a list of all the shortcuts in the plugin. The most frequent actions are
      - :kbd:`Shift+E`
    * - **Confirm asset transformation** (in transform mode)
      - :kbd:`Space`
-   * - **Select last asset** (when none selected)
+   * - **Select previous asset** (when none selected)
      - :kbd:`Space`
    * - **Place and select**
      - :kbd:`Alt+Click`
@@ -99,5 +100,9 @@ Here is a list of all the shortcuts in the plugin. The most frequent actions are
      - :kbd:`2`
    * - Flip on Z axis
      - :kbd:`3`
+   * - Double snap step
+     - :kbd:`Ctrl+Up`
+   * - Halve snap step
+     - :kbd:`Ctrl+Down`
 
-These are the default keybindings recommended by us, but you can change any of them in the Project Settings under ``AssetPlacer -> Shortcuts``.
+These are the default keybindings recommended by us, but you can change any of them in the :doc:`Project Settings <settings/>` under ``AssetPlacer -> Shortcuts``.

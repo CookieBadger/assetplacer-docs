@@ -2,7 +2,6 @@
    sphinx-quickstart on Thu Mar 30 07:37:23 2023.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
-
 Welcome to the AssetPlacer documentation!
 =====================================================
 
@@ -32,6 +31,7 @@ Get it `here`_!
    placement_modes
    snapping
    painting_orienting
+   settings
    
 .. toctree::
    :hidden:
@@ -39,13 +39,20 @@ Get it `here`_!
    :caption: About
    
    faq
+   license
 
 
-Not only can you save massive amounts using the AssetPlacer, it also helps you achieve the same things with fewer actions, thus you can get more done with less strain. 
+Not only can you save massive amounts of time using the AssetPlacer, it also helps you achieve the same things with fewer actions, thus you can get more done with less strain. 
 
 Click on any topics on the sidebar to find more information. If you want to quickly get started, read through the :doc:`Installation <installation/>` and :doc:`Usage <usage/>` pages. 
 
+
    .. If you want to see the asset placer in action, check out the following video: [Timelapse video]
    .. There are also tutorials on how to use it: [Tutorial]
+
+
+.. image:: images/ItchBanner.png
+
+|
 
 .. _here: https://cookiebadger.itch.io/assetplacer
