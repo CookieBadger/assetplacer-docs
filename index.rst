@@ -7,8 +7,10 @@ Welcome to the AssetPlacer documentation!
 =====================================================
 
 The **AssetPlacer** is a plugin for the Godot game engine, that helps with level design by providing advanced asset browsing and placement tools.
-Get it `here`_!
+`Get it now on itch.io <https://cookiebadger.itch.io/assetplacer>`_!
 
+
+*If you like the plugin, and want to help me, please* `leave a review <https://cookiebadger.itch.io/assetplacer/rate>`_!
 
 .. image:: images/Screenshot2.png
 
