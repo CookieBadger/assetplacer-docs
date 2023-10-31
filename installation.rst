@@ -21,7 +21,7 @@ The AssetPlacer is developed in C#. Hence, to use it, you need to use a Mono ver
 
 5. On the bottom panel (next to Output, Animation, MSBuild, etc.), a new option "AssetPlacer" should have appeard. Click it, to open the AssetPlacer UI. 
 
-.. image:: images/AssetPlacerBottomPanel.png
+.. image:: images/AssetPlacerBottomPanel_v2.png
 
 Congratulations, you are ready to use the AssetPlacer!
 

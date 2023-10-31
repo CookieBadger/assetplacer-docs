@@ -86,4 +86,4 @@ I made this level with the AssetPlacer!
 ----------------------------------------
 Amazing! If you want to share what you have made, feel free to tag any of my social media accounts (e.g. `@_cookieBadger <https://twitter.com/_cookieBadger>`_ on Twitter) or post it as a comment on the `itch`_ page, since I'd be super interested in seeing what you made with it! 
 
-.. _itch: https://cookiebadger.itch.io/assetplacer
+.. _itch: https://itch.io/t/3066159/levels-and-environments-youve-made-with-assetplacer

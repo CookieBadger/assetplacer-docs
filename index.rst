@@ -12,7 +12,7 @@ The **AssetPlacer** is a plugin for the Godot game engine, that helps with level
 
 *If you like the plugin, and want to help me, please* `leave a review <https://cookiebadger.itch.io/assetplacer/rate>`_!
 
-.. image:: images/Screenshot2.png
+.. image:: images/Screenshot2_v2.png
 
 
 .. toctree::
