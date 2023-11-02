@@ -1,8 +1,8 @@
 Asset Palette and Libraries
 ============================
 
-The asset palette is large panel on the right side of tthe AssetPlacer interface. This is where you manage your libraries and add and remove assets.
-To add assets, simply drag and drop them into the panel. Note, that only 3D scenes (i.e. .tscn files with a root node that is/extends Node3D) and 3D models (e.g. .obj, .gltf files) imported as scenes are supported, since other resources cannot usefully be placed in the 3D world.
+The asset palette is the large panel on the right side of tthe AssetPlacer interface. This is where you manage your libraries and add and remove assets.
+To add assets, simply drag and drop them into the panel. Note, that only 3D scenes (i.e. .tscn files with a root node that is/extends Node3D), 3D models (e.g. .obj, .gltf files) and meshes are supported, since other resources cannot usefully be placed in the 3D world.
 The number of assets per library is unlimited. Yet, it is recommended to separate assets in libraries to make browsing more efficient.
 
 .. image:: images/DroppingAsset_v2.png

@@ -10,8 +10,6 @@ You can now click to place instances of your assets. They are being added to the
 You can change the spawn parent in the AssetPlacer UI, by dragging a node from the scene tree onto the "Spawn Under" field, or by selecting a node and then clicking the button next to "Spawn Under".
 
 .. image:: images/ChangingSpawnParent.gif
-    
-As placing assets does not flag the scene as changed, **make sure to always save your scene** after you placed assets, even though the editor does not remind you to!
 
 You can keep placing more instances of your selected asset or select a different asset from the palette. If you want to stop placing assets, press :kbd:`Esc` to deselect the asset. 
 In case you then want to select the same asset again, you can press the :kbd:`Space`, to select the last asset again.
@@ -19,7 +17,7 @@ If you want to place an asset and select it, to apply some transformations or mo
 
 If you want to transform not just the current instance of the asset you are placing, but all instances you are placing, you can select the asset and press :kbd:`E` to rotate or :kbd:`R` to scale, while hovering over the viewport.
 You can apply the desired changes and then press :kbd:`Space` to confirm. In case you want to cancel your changes, press :kbd:`Esc`. Notice that transformations persist when you deselect and select your asset again.
-If you want to reset the transformation of your asset entirely, press :kbd:`Shift+E`.
+If you want to reset the transformation of your asset entirely, press :kbd:`Shift+E`, or click the little reset button that will have appeared on the asset in the asset panel.
 
 .. image:: images/TransformingAsset.gif
 
