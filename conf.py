@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'AssetPlacer Documentation'
-copyright = '2023, BoolBadger'
-author = 'BoolBadger'
+copyright = '2023-present, CookieBadger'
+author = 'CookieBadger'
 release = '2023'
 
 # -- General configuration ---------------------------------------------------
