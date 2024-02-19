@@ -46,3 +46,15 @@ The surface placement mode also allows you to align assets with the normal of th
 By default, this is the positive Y-axis, which would work for e.g. placing trees, but when you want to stick a sign to a wall, you might, for example, use the X-axis instead.
 
 .. image:: images/SurfacePlacementAligned.gif
+
+
+Terrain3D Placement Mode
+-----------------------
+
+This mode is only available if you have the `Terrain3D plugin by Tokisan Games <https://github.com/TokisanGames/Terrain3D/tree/main>`_ (Cory Petrov & Roope Palmroos) enabled.
+Contrary to the Surface Placement mode, which only works together with Terrain3D if you enable Debug Collisions in the Inspector for a Terrain3D node, the Terrain3D mode allows you to place assets exclusively on the terrain, without any performance footprint.
+To use it, simply assign a Terrain3D node from your scene to the "Terrain3D Node" field. You can now place assets on this terrain.
+
+.. image:: images/Terrain3DPlacement.gif
+
+Except for having to assign the Terrain3D node explicitly, this mode works similar to the Surface Placement Mode.
