@@ -23,7 +23,7 @@ You are free to use the AssetPlacer plugin for commercial and non-commercial pro
 
 You are not permitted to:
 
-- Reproduce, copy, distribute, resell or otherwise use the Software for any commercial purpose
+- Reproduce, copy, distribute or resell the Software for any commercial purpose
 - Reproduce, copy, distribute or resell the Software for a commercial or non-commercial purpose, such that any third party, that has not been granted a license to use the Software, can access it
 - Allow any third party to use the Software on behalf of or for the benefit of any third party
 - Use the Software in any way which breaches any applicable local, national or international law
