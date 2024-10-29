@@ -9,7 +9,7 @@
 project = 'AssetPlacer Documentation'
 copyright = '2023-present, CookieBadger'
 author = 'CookieBadger'
-release = '2023'
+release = '2024'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
