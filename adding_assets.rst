@@ -14,11 +14,20 @@ Alternatively, you can configure where libraries are saved in the :doc:`Project 
 A saved library can be opened by clicking ``Load Library``. This opens the library in a new tab. If you want to close a library tab, simply click on it with the middle mouse button.
 You can also right click a library tab to open the context menu, to either locate it in your file explorer, or to save a copy of it.
 
-.. image:: images/LibraryContextMenu_v2.png
+.. image:: images/LibraryContextMenu_v4.png
+
+If you want to browse through all of your assets in 3D (for example to see how they relate in size), you can click on ``Generate Asset Zoo``. An asset zoo is a scene where all the assets of the library are placed, such that you can browse through them in 3D.
+If you want to save the asset zoo, right click on the scene name and ``Save As``, as the zoo is only saved at a temporary location and will be overwritten.
+
+.. image:: images/AssetZoo.png
 
 If you want to remove an asset from a library, locate it in the FileSystem, or open it as a scene, you can right click it to open its context menu.
 
-.. image:: images/AssetContextMenu_v2.png
+.. image:: images/AssetContextMenu_v4.png
+	
+You can also click on ``Dynamic Preview``, or press :kbd:`V` while hovering over it to get a 3D preview of your asset. Rotate the asset with your middle mouse button and if you want to update the thumbnail from the new perspective, hit :kbd:`Space`.
+
+.. image:: images/DynamicPreview.gif
 
 Libraries keep only references to the assets you added. If you move assets around or delete them, their references might become invalid, and you need to add the asset again.
 In case of unexpected behavior refer to the "Output" tab for information.

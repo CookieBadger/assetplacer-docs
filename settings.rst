@@ -5,7 +5,7 @@ As described in various other locations, you can change certain aspects of the p
 You can access them by going to ``Project -> ProjectSettings...``, and then scrolling down to the ``Asset Placer`` section. 
 Make sure, that ``Advanced Settings`` is enabled, otherwise the section will not show up.
 
-.. image:: images/Settings.png
+.. image:: images/Settings_v4.png
 
 Here is everything you can configure. The order of the settings might occasionally change.
 
