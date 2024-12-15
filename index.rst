@@ -20,6 +20,7 @@ The **AssetPlacer** is a plugin for the Godot game engine, that helps with level
    :maxdepth: 4
    :caption: Quickstart
 
+   demo
    installation
    usage
 

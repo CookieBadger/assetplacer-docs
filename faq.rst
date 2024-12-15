@@ -4,7 +4,13 @@ Frequently Asked Questions (FAQ)
 .. |nbsp| unicode:: 0xA0 
    :trim:
 
-Why is this not free?
+Is there some trial or demo?
+----------------------------
+There is! The first AssetPlacer version was originally developed for an academic thesis, which you can check out `here <https://cookiebadger.itch.io/assetplacer#:~:text=87%20kB-,Development%20log>`_. 
+It includes a demo for the plugin, that was patched to fix bugs and support newer Godot versions.
+You can use this demo to see if the plugin works for you. By buying the full version you support my work and ensure that more updates will be developed in the future.
+
+Why is this not entirely free?
 ------------------------
 
 We all love open-source software like Godot for its accessibility and the freedom it gives to users. We then make games with it, which are - in most cases - commercial. 
