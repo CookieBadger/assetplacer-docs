@@ -1,0 +1,139 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Settings and Configuration &mdash; AssetPlacer Documentation 2024 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=6fefd858"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Frequently Asked Questions (FAQ)" href="faq.html" />
+    <link rel="prev" title="Painting and Orienting Assets" href="painting_orienting.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AssetPlacer Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Manual</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding_assets.html">Asset Palette and Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="placing_assets.html">Placing Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="placement_modes.html">Placement Modes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="snapping.html">Snapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="painting_orienting.html">Painting and Orienting Assets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Settings and Configuration</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Frequently Asked Questions (FAQ)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">End-User License Agreement (EULA)</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AssetPlacer Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Settings and Configuration</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/settings.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="settings-and-configuration">
+<h1>Settings and Configuration<a class="headerlink" href="#settings-and-configuration" title="Link to this heading"></a></h1>
+<p>As described in various other locations, you can change certain aspects of the plugin in the project settings. These settings are saved in your <code class="docutils literal notranslate"><span class="pre">project.godot</span></code> file.
+You can access them by going to <code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">-&gt;</span> <span class="pre">ProjectSettings...</span></code>, and then scrolling down to the <code class="docutils literal notranslate"><span class="pre">Asset</span> <span class="pre">Placer</span></code> section.
+Make sure, that <code class="docutils literal notranslate"><span class="pre">Advanced</span> <span class="pre">Settings</span></code> is enabled, otherwise the section will not show up.</p>
+<img alt="_images/Settings_v4.png" src="_images/Settings_v4.png" />
+<p>Here is everything you can configure. The order of the settings might occasionally change.</p>
+<ol class="arabic simple">
+<li><p>Shortcuts: All shortcuts that the plugin uses can be configured here, by modifying the respective InputEventKeys. You can also add additional alternatives to achieve the same thing.</p></li>
+<li><p>Use Shift Instead of Alt: in case you have troubles due to some different mapping of your Alt key, you can check this to use Shift+Click to place and select assets.</p></li>
+<li><p>Show Tooltips: I understand that the tooltips might be annoying and clutter your scren, so here you can turn them off entirely!</p></li>
+<li><p>Preview Perspective: The default perspective from which previews are rendered, if nothing else is configured for the library or the asset.</p></li>
+<li><p>Library Save File Location: If you want your libraries to be saved in your project folder, you can configure that here!</p></li>
+<li><p>Shortcut Shift Rotation step: When you press a <em>secondary step</em> rotation shortcut, it will not rotate the asset by 90 degrees, but by this amount. Change it to your needs.</p></li>
+</ol>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="painting_orienting.html" class="btn btn-neutral float-left" title="Painting and Orienting Assets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="faq.html" class="btn btn-neutral float-right" title="Frequently Asked Questions (FAQ)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023-present, CookieBadger.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

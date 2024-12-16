@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Usage &mdash; AssetPlacer Documentation 2024 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=6fefd858"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Interface" href="interface.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AssetPlacer Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="demo.html">Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#interface">Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-and-placing-assets">Adding and Placing Assets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#shortcuts">Shortcuts</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Manual</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding_assets.html">Asset Palette and Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="placing_assets.html">Placing Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="placement_modes.html">Placement Modes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="snapping.html">Snapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="painting_orienting.html">Painting and Orienting Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings and Configuration</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Frequently Asked Questions (FAQ)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">End-User License Agreement (EULA)</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AssetPlacer Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Usage</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="usage">
+<h1>Usage<a class="headerlink" href="#usage" title="Link to this heading"></a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page only covers the basic functionality for the first version of AssetPlacer. Please refer to <a class="reference internal" href="manual.html"><span class="doc">Manual</span></a> for an up-to-date and in-depth description of all current features.</p>
+</div>
+<p>The AssetPlacer helps to quickly browse through a selection of 3D assets and place instances quickly and efficiently in the scene.
+This section, will briefly explain how to use the plugin.</p>
+<section id="interface">
+<h2>Interface<a class="headerlink" href="#interface" title="Link to this heading"></a></h2>
+<img alt="_images/InterfaceLayoutCoarse.png" src="_images/InterfaceLayoutCoarse.png" />
+<p>The AssetPlacer UI consists of two major components. On the right, we have the asset palette (1), it displays all the assets that are currently in the library with previews. Clicking on an asset selects it for placement.
+On the left, we have the placement settings (2). Here you can configure how assets should be placed (on a plane, or on surfaces) and whether grid-snapping should be applied, as well the specific configuration of the snapping grid.</p>
+</section>
+<section id="adding-and-placing-assets">
+<h2>Adding and Placing Assets<a class="headerlink" href="#adding-and-placing-assets" title="Link to this heading"></a></h2>
+<p>You can add any 3D scene or any 3D model, that is imported as a 3D scene to the asset placer, by dragging and dropping it from the FileSystem to the asset palette as shown below.</p>
+<img alt="_images/DroppingAsset.gif" src="_images/DroppingAsset.gif" />
+<p>The asset then gets added to the palette and a preview should be shown.
+In case of any error, check if there is anything in the Output panel of the Godot engine.
+You can add as many assets as you want to the palette. Optionally, you can also click “Save Library”, to store your selection of assets and be able to load it up after you restart the editor.
+Right click on an asset in the asset panel to open the context menu, e.g. to remove it from the library. Remember to save the library again after you make any changes. The save location can be changed in the <a class="reference internal" href="settings.html"><span class="doc">Project Settings</span></a>.</p>
+<p>To the left of the asset palette, you can then configure how you want to place assets. For example, you can select to place them under the root node and on the XZ plane at a height of 0, which is the default setting.
+To place an asset, click on it in the asset palette and move the mouse over the 3D viewport. A preview of the asset should follow your mouse cursor in the 3D scene. To place it, simply click once. To deslect the asset, press <kbd class="kbd docutils literal notranslate">Esc</kbd>.</p>
+<img alt="_images/PlacingAsset.gif" src="_images/PlacingAsset.gif" />
+<p>You can toggle snapping by holding down the <kbd class="kbd docutils literal notranslate">Ctrl</kbd> key, while placing the asset. If you want to immediately select the asset when placing the asset, hold the <kbd class="kbd docutils literal notranslate">Alt</kbd> key while clicking. This helps to quickly perform some unique transformations to the instance.
+If you want to transform the preview and all subsequently placed instances of the asset, by rotating or scaling, press <kbd class="kbd docutils literal notranslate">E</kbd> or <kbd class="kbd docutils literal notranslate">R</kbd> respectively. If you are done, press the <kbd class="kbd docutils literal notranslate">Space</kbd> key. If you have no asset selected, you can press <kbd class="kbd docutils literal notranslate">Space</kbd> to select the most recent asset.</p>
+<p>In order to not rely on manually typing the position values all the time, you can press the key <kbd class="kbd docutils literal notranslate">G</kbd> and then move the mouse to displace the placement plane. Snapping settings apply to the plane displacement.
+Left click, once you are satisfied with the position. Of course, this feature only exists in the plane placement mode.</p>
+<img alt="_images/PlaneDisplacement.gif" src="_images/PlaneDisplacement.gif" />
+<p>You can also place assets on physics surfaces. Make sure, that collisions are enabled on the surface objects you want to place assets on (e.g. the terrain). If you want, you can configure the collision mask that assets are placed on in the <a class="reference internal" href="settings.html"><span class="doc">Project Settings</span></a>.
+You can also press a checkbox in the placement configuration, to align your asset with the normal vector of the surface you are placing on.</p>
+<img alt="_images/SurfacePlacement.gif" src="_images/SurfacePlacement.gif" />
+<p>If snapping is enabled, you can paint a row of assets by clicking and dragging. If you draw over your line of assets, assets will not be stacked at the overlaps.</p>
+<img alt="_images/PaintingAssets.gif" src="_images/PaintingAssets.gif" />
+<p>If snapping is disabled, you can click and drag to rotate your asset along the normal vector of the surface you are placing on.</p>
+<img alt="_images/RotatingAssets.gif" src="_images/RotatingAssets.gif" />
+<p>With these instructions, you should be ready to use the AssetPlacer for the creation of your levels. However, it is recommended to take some time to look at the table of shortcuts below, to get the most out of the plugin.</p>
+</section>
+<section id="shortcuts">
+<h2>Shortcuts<a class="headerlink" href="#shortcuts" title="Link to this heading"></a></h2>
+<p>Here is a list of all the shortcuts in the plugin. The most frequent actions are highlighted in bold, so the us of these shorcuts is especially recommended.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 65.0%" />
+<col style="width: 35.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Action</p></th>
+<th class="head"><p>Keybinding</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Rotate mode</strong></p></td>
+<td><p><kbd class="kbd docutils literal notranslate">E</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Scale mode</strong></p></td>
+<td><p><kbd class="kbd docutils literal notranslate">R</kbd></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Reset transformation</strong></p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">E</kbd></kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Confirm asset transformation</strong> (in transform mode)</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">Space</kbd></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Select previous asset</strong> (when none selected)</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">Space</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Place and select</strong></p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Alt</kbd>+<kbd class="kbd docutils literal notranslate">Click</kbd></kbd></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Toggle snapping</strong></p></td>
+<td><p><kbd class="kbd docutils literal notranslate">Ctrl</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Displace plane</strong> (in plane placement mode)</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">G</kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Rotate 90 degrees around X</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">A</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Rotate 90 degrees around Y</strong></p></td>
+<td><p><kbd class="kbd docutils literal notranslate">S</kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Rotate 90 degrees around Z</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">D</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rotate 45 degrees around X</p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">A</kbd></kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Rotate 45 degrees around Y</p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">S</kbd></kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p>Rotate 45 degrees around Z</p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Shift</kbd>+<kbd class="kbd docutils literal notranslate">D</kbd></kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Flip on X axis</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">1</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p>Flip on Y axis</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">2</kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Flip on Z axis</p></td>
+<td><p><kbd class="kbd docutils literal notranslate">3</kbd></p></td>
+</tr>
+<tr class="row-odd"><td><p>Double snap step</p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd>+<kbd class="kbd docutils literal notranslate">Up</kbd></kbd></p></td>
+</tr>
+<tr class="row-even"><td><p>Halve snap step</p></td>
+<td><p><kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Ctrl</kbd>+<kbd class="kbd docutils literal notranslate">Down</kbd></kbd></p></td>
+</tr>
+</tbody>
+</table>
+<p>These are the default keybindings recommended by us, but you can change any of them in the <a class="reference internal" href="settings.html"><span class="doc">Project Settings</span></a> under <code class="docutils literal notranslate"><span class="pre">AssetPlacer</span> <span class="pre">-&gt;</span> <span class="pre">Shortcuts</span></code>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="interface.html" class="btn btn-neutral float-right" title="Interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023-present, CookieBadger.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

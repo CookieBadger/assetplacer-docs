@@ -1,0 +1,171 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Placement Modes &mdash; AssetPlacer Documentation 2024 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=6fefd858"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Snapping" href="snapping.html" />
+    <link rel="prev" title="Placing Assets" href="placing_assets.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            AssetPlacer Documentation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Quickstart</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="demo.html">Demo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Manual</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="interface.html">Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="adding_assets.html">Asset Palette and Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="placing_assets.html">Placing Assets</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Placement Modes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#plane-placement-mode">Plane Placement Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#surface-placement-mode">Surface Placement Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#terrain3d-placement-mode">Terrain3D Placement Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="snapping.html">Snapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="painting_orienting.html">Painting and Orienting Assets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings and Configuration</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">Frequently Asked Questions (FAQ)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">End-User License Agreement (EULA)</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">AssetPlacer Documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Placement Modes</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/placement_modes.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="placement-modes">
+<h1>Placement Modes<a class="headerlink" href="#placement-modes" title="Link to this heading"></a></h1>
+<p>At the moment, the AssetPlacer offers two different placement modes: Plane and Surface. You can switch the mode in the drop down on the left side of the user interface.</p>
+<section id="plane-placement-mode">
+<h2>Plane Placement Mode<a class="headerlink" href="#plane-placement-mode" title="Link to this heading"></a></h2>
+<p>This is the default mode. The plane placement mode places assets - as the name suggests - on a plane, that can be configured by the user. This is mode is useful when the level you are working on is flat, blocky or when the differences in height are discrete.
+When selecting an asset, and hovering over the viewport, the asset is positioned on the intersection of the plane and the line from the mouse position into the 3D world.</p>
+<img alt="_images/PlanePlacementModeInterface.png" src="_images/PlanePlacementModeInterface.png" />
+<p>With the “Plane” dropdown, you can switch between three different plane orientations. Or you can use shortcuts to switch between them.</p>
+<ul class="simple">
+<li><p>the YZ plane, which is normal to the X axis. Shortcut: <kbd class="kbd docutils literal notranslate">Z</kbd></p></li>
+<li><p>the XZ plane (default), which is normal to the Y axis - the “floor” plane. Shortcut: <kbd class="kbd docutils literal notranslate">X</kbd></p></li>
+<li><p>the XY plane, which is normal to the Z axis. Shortcut: <kbd class="kbd docutils literal notranslate">C</kbd></p></li>
+</ul>
+<p>To position the plane along its normal, you can set the value in the input field next to the dropdown. E.g., if you use the XZ plane on a position of 5, you would be placing on the “floor” plane normal to the Y axis, positioned at y=5.
+To avoid typing in values manually though, you can press <kbd class="kbd docutils literal notranslate">G</kbd> to move the plane with the mouse. Click, when you are satisfied with the position, or press <kbd class="kbd docutils literal notranslate">Esc</kbd> to cancel the displacement.
+<a class="reference internal" href="snapping.html"><span class="doc">Snapping</span></a> also applies to the displacement of the plane, so you can use it to precisely move it to a certain height.
+Whenever you make changes to the placement of the plane, it briefly shows up in the 3D view.</p>
+<img alt="_images/PlaneDisplacement.gif" src="_images/PlaneDisplacement.gif" />
+<p>If you want to move the plane exactly to the position of an object in the scene, you can select it, and press the button above the position field, as shown in the image below.</p>
+<img alt="_images/PlaneToSelectedPosition.gif" src="_images/PlaneToSelectedPosition.gif" />
+</section>
+<section id="surface-placement-mode">
+<h2>Surface Placement Mode<a class="headerlink" href="#surface-placement-mode" title="Link to this heading"></a></h2>
+<p>The second mode offered by the plugin, allows to place assets on physics surfaces. This is useful when placing object on terrain, on walls, or when you need to place assets on a rotated plane.</p>
+<img alt="_images/SurfacePlacementModeInterface.png" src="_images/SurfacePlacementModeInterface.png" />
+<p>When selecting an asset, and hovering over the viewport, with this placement mode enabled, the asset is positioned on the intersection of the line from the mouse position into the 3D world and the first physics surface it intersects (raycast).
+This only works on collision surfaces, so make sure that objects you want to place on, have a collision shape or collisions enabled (e.g. for CSG shapes).
+You can also set a special collision mask for placement in the project settings under <code class="docutils literal notranslate"><span class="pre">AssetPlacer</span> <span class="pre">-&gt;</span> <span class="pre">Settings</span></code>.</p>
+<img alt="_images/SurfacePlacement.gif" src="_images/SurfacePlacement.gif" />
+<p>The surface placement mode also allows you to align assets with the normal of the surface they are being placed on. To enable this, make sure to check the box “Align to Surface Normal” and select the right direction of your object you want to align.
+By default, this is the positive Y-axis, which would work for e.g. placing trees, but when you want to stick a sign to a wall, you might, for example, use the X-axis instead.</p>
+<img alt="_images/SurfacePlacementAligned.gif" src="_images/SurfacePlacementAligned.gif" />
+</section>
+<section id="terrain3d-placement-mode">
+<h2>Terrain3D Placement Mode<a class="headerlink" href="#terrain3d-placement-mode" title="Link to this heading"></a></h2>
+<p>This mode is only available if you have the <a class="reference external" href="https://github.com/TokisanGames/Terrain3D/tree/main">Terrain3D plugin by Tokisan Games</a> (Cory Petrov &amp; Roope Palmroos) enabled.
+Contrary to the Surface Placement mode, which only works together with Terrain3D if you enable Debug Collisions in the Inspector for a Terrain3D node, the Terrain3D mode allows you to place assets exclusively on the terrain, without any performance footprint.
+To use it, simply assign a Terrain3D node from your scene to the “Terrain3D Node” field. You can now place assets on this terrain.</p>
+<img alt="_images/Terrain3DPlacement.gif" src="_images/Terrain3DPlacement.gif" />
+<p>Except for having to assign the Terrain3D node explicitly, this mode works similar to the Surface Placement Mode.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="placing_assets.html" class="btn btn-neutral float-left" title="Placing Assets" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="snapping.html" class="btn btn-neutral float-right" title="Snapping" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023-present, CookieBadger.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
